@@ -25,6 +25,6 @@ h4{
   color: #FFECBC;
 }
 
-p, #editor {
+#editor {
   font-family: 'PT Mono', monospace;
 }

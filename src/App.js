@@ -64,9 +64,9 @@ class TextEditor extends React.Component {
 class PreviewBox extends React.Component {
   render(){
     return (
-      <div id="preview" class="col-sm-10 border text-wrap text-left editor-back p-0">
+      <div class="col-sm-10 border text-wrap text-left editor-back p-0">
         <div id="preview-header"><h4>Markdown Preview</h4></div>
-        <p class="p-2" dangerouslySetInnerHTML={{__html:marked(this.props.text)}}></p>
+        <p id="preview" class="p-2" dangerouslySetInnerHTML={{__html:marked(this.props.text)}}></p>
       </div>
     )
   }
