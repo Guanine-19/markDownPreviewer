@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import marked from '../node_modules/marked/marked.min.js';
+const marked = require('../node_modules/marked/marked.min.js');
 const PLACEHOLDER = 
 `# Welcome to my React Markdown Previewer!
 
